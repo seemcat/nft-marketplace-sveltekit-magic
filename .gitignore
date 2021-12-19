@@ -4,6 +4,7 @@ node_modules
 /.svelte-kit
 /package
 
+config.js
 node_modules
 .env
 .secret
@@ -11,7 +12,6 @@ coverage
 coverage.json
 typechain
 yarn-error.log
-config.js
 
 #Hardhat files
 cache
