@@ -7,7 +7,6 @@ node_modules
 config.js
 node_modules
 .env
-.secret
 coverage
 coverage.json
 typechain
