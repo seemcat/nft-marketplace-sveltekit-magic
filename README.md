@@ -6,7 +6,7 @@ Here's a [video format](https://www.youtube.com/watch?v=GuJg3IHA1to) explaining 
 # Getting Started
 ***Note:** The smart contracts for this DApp were only deployed on the local Hardhat network. To see how you can deploy to a test or main network, make sure to check out [Nader Dabit's tutorial](https://dev.to/dabit3/building-scalable-full-stack-apps-on-ethereum-with-polygon-2cfb)!*
 
-1. Clone this repo: `gh repo clone seemcat/nft-marketplace-svelte-magic` & run `npm install`.
+1. Clone this repo: `gh repo clone seemcat/nft-marketplace-sveltekit-magic` & run `npm install`.
 2. Set up your `.env` file by first changing its file name: `mv .example-env .env`. Then create an account with [Magic](https://magic.link/). Grab your Publishable API Key; it's the value for `VITE_MAGIC_PUBLIC_KEY`. The Secret Key is the value for `MAGIC_SECRET_KEY`.
 3. Spin up the local Hardhat network: `npx hardhat node`. This will create 19 test accounts which we will use later.
 4. Deploy the smart contracts onto the local Hardhat network: `npx hardhat run scripts/deploy.js --network localhost`. 
