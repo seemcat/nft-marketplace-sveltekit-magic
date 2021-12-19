@@ -1,0 +1,17 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+
+node_modules
+.env
+.secret
+coverage
+coverage.json
+typechain
+yarn-error.log
+
+#Hardhat files
+cache
+artifacts
